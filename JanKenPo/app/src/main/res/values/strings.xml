@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">JanKenPo</string>
+    <string name="app_name">Jan-Ken-Po</string>
+
+    <string name="player_wins">Você escolheu %s e ganhou!</string>
+    <string name="player_loses">Você escolheu %s e perdeu...</string>
+    <string name="players_draw">Vocês escolheram %s e empataram.</string>
 </resources>
