@@ -14,26 +14,5 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        showFragments()
-    }
-
-    private fun showFragments() {
-//        val primeiroFragment = PrimeiroFragment()
-        val primeiroFragment = PrimeiroFragment.newInstance("Caio", "Silva")
-        val segundoFragment = SegundoFragment()
-        // val list = listOf("cachorro", "gato", "papagaio")
-
-        val bundle = bundleOf("NOME_USUARIO" to "Caio")
-        segundoFragment.arguments = bundle
-
-        supportFragmentManager
-            .beginTransaction()
-            .replace(binding.frameLayoutPrimeiroFragment.id, primeiroFragment)
-            .commit()
-
-        supportFragmentManager
-            .beginTransaction()
-            .replace(binding.frameLayoutSegundoFragment.id, segundoFragment)
-            .commit()
     }
 }
