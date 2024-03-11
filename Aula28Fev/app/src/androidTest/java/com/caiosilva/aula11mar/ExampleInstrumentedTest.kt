@@ -1,4 +1,4 @@
-package com.caiosilva.aula28fev
+package com.caiosilva.aula11mar
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

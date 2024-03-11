@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.caiosilva.aula28fev"
+    namespace = "com.caiosilva.aula11mar"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.caiosilva.aula28fev"
+        applicationId = "com.caiosilva.aula11mar"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

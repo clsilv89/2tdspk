@@ -1,8 +1,8 @@
-package com.caiosilva.aula28fev
+package com.caiosilva.aula11mar
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
-import com.caiosilva.aula28fev.databinding.ActivityMainBinding
+import com.caiosilva.aula11mar.databinding.ActivityMainBinding
 
 class MainActivity : ComponentActivity() {
     private lateinit var binding: ActivityMainBinding
